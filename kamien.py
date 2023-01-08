@@ -8,7 +8,7 @@ wynik_przeciwnika=0
 
 twoj_ruch=""
 
-opcja=tk.StringVar(value="WYBIERZ")
+opcja=tk.StringVar(value="Łatwiutki")
 zmienna=""
 opcje = ['Łatwiutki','Średnio','Trudny']
 ruchy_przeciwnika = ['papier','kamien','nozyce']

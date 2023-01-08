@@ -125,6 +125,19 @@ def po_potwierdzeniu():
       komunikat.config(text="PRZEGRAŁEŚ GRE!",fg= 'red')
       entrybox1.config(text= twoj_wynik)
       entrybox2.config(text= wynik_przeciwnika)
+   elif twoj_wynik-3 == wynik_przeciwnika:
+      twoj_wynik=0
+      wynik_przeciwnika=0
+      komunikat.config(text="WYGRAŁEŚ GRE!",fg= 'green')
+      entrybox1.config(text= twoj_wynik)
+      entrybox2.config(text= wynik_przeciwnika)
+   elif wynik_przeciwnika-3 == twoj_wynik:
+      twoj_wynik=0
+      wynik_przeciwnika=0
+      komunikat.config(text="PRZEGRAŁEŚ GRE!",fg= 'red')
+      entrybox1.config(text= twoj_wynik)
+      entrybox2.config(text= wynik_przeciwnika)
+
 
 text = tk.StringVar
 root.title("Kalkulator")
